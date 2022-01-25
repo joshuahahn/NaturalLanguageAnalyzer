@@ -14,8 +14,7 @@ The program extracts relations by using a Stack to keep track of objects, much l
 ## Example Usage
 
 The following sentence: "the child saw the cat that the man loved" will return the following output:
-```(child,saw,cat) 
-(man,loved,cat)```
+```(child,saw,cat) (man,loved,cat)```
 
 This is much like how a human would understand the sentence structure; the man loved the cat, and the child saw the cat.
 More tests can easily be completed by adding more sentences to the result list.
